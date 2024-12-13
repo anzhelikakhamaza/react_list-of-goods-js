@@ -41,6 +41,7 @@ export const App = () => {
 
     setGoods(reversedGoods);
     setIsReversed(!isReversed);
+    setActiveSort('');
   };
 
   const resetSort = () => {
